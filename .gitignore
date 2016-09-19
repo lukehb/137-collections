@@ -1,3 +1,10 @@
+#directories
+.idea/
+.gradle/
+gradle/
+gradlew.bat
+gradlew
+
 *.class
 
 # Mobile Tools for Java (J2ME)
