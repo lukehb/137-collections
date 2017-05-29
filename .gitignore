@@ -1,6 +1,8 @@
 #directories
+out/
 .idea/
 .gradle/
+build/
 gradle/
 gradlew.bat
 gradlew
