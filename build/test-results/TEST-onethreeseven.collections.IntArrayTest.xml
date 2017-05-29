@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="onethreeseven.collections.IntArrayTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2016-09-19T11:40:20" hostname="DESKTOP-FBKJCBU" time="0.008">
+  <properties/>
+  <testcase name="addAndCheckElements" classname="onethreeseven.collections.IntArrayTest" time="0.002"/>
+  <testcase name="addAndCheckSize" classname="onethreeseven.collections.IntArrayTest" time="0.0"/>
+  <testcase name="bulkAddAndCheckElements" classname="onethreeseven.collections.IntArrayTest" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

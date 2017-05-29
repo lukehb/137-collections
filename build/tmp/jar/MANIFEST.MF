@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Implementation-Title: collections
+Implementation-Version: 0.0.1
+Built-By: luke
+Built-Date: Mon Sep 19 21:25:55 AEST 2016
+Built-JDK: 1.8.0_72
+

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="onethreeseven.collections.DoubleArrayTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2016-09-19T11:40:20" hostname="DESKTOP-FBKJCBU" time="0.291">
+  <properties/>
+  <testcase name="testAddSingleAndMulti" classname="onethreeseven.collections.DoubleArrayTest" time="0.037"/>
+  <testcase name="testAddLotsOfDoubles" classname="onethreeseven.collections.DoubleArrayTest" time="0.251"/>
+  <testcase name="testAddOnHeap" classname="onethreeseven.collections.DoubleArrayTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Sep 19, 2016 9:40:20 PM onethreeseven.collections.DoubleArrayTest testAddLotsOfDoubles
+INFO: Free memory now: 74mb
+Sep 19, 2016 9:40:20 PM onethreeseven.collections.DoubleArrayTest testAddLotsOfDoubles
+INFO: Allocated memory now: 90mb
+Sep 19, 2016 9:40:20 PM onethreeseven.collections.DoubleArrayTest testAddLotsOfDoubles
+INFO: Making massive OffHeap data...
+Sep 19, 2016 9:40:20 PM onethreeseven.collections.DoubleArrayTest testAddLotsOfDoubles
+INFO: Free memory now: 87mb
+Sep 19, 2016 9:40:20 PM onethreeseven.collections.DoubleArrayTest testAddLotsOfDoubles
+INFO: Allocated memory now: 90mb
+]]></system-err>
+</testsuite>
