@@ -65,38 +65,4 @@ public class DoubleArrayTest {
         }
 
     }
-
-    @Test
-    public void testAddLotsOfDoubles() throws Exception {
-
-        int mb = 1024 * 1024;
-
-        Runtime runtime = Runtime.getRuntime();
-        int freeMemoryBefore = (int) (runtime.freeMemory()/mb);
-        logger.info("Free memory now: " + freeMemoryBefore + "mb");
-        int allocatedMemoryBefore = (int) (runtime.totalMemory()/mb);
-        logger.info("Allocated memory now: " + allocatedMemoryBefore + "mb");
-
-        logger.info("Making massive OffHeap data...");
-        int size = (int) 1e7;
-        DoubleArray ohArr = new DoubleArray(size, true);
-        Random rand = new Random();
-        rand.setSeed(System.currentTimeMillis());
-        for (int i = 0; i < size; i++) {
-            ohArr.add(rand.nextInt());
-        }
-
-        System.gc();
-        Thread.sleep(5L);
-
-        int freeMemoryAfter = (int) (runtime.freeMemory()/mb);
-        logger.info("Free memory now: " + freeMemoryAfter + "mb");
-        int allocatedMemoryAfter = (int) (runtime.totalMemory()/mb);
-        logger.info("Allocated memory now: " + allocatedMemoryAfter + "mb");
-
-        //the difference should certainly be now more than 100mb
-        Assert.assertTrue(Math.abs(freeMemoryAfter - freeMemoryBefore) < 100);
-        Assert.assertTrue(Math.abs(allocatedMemoryAfter - allocatedMemoryBefore) < 100);
-
-    }
 }
