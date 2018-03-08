@@ -1,7 +1,8 @@
 Manifest-Version: 1.0
+Automatic-Module-Name: onethreeseven.collections
 Implementation-Title: collections
-Implementation-Version: 0.0.1
-Built-By: luke
-Built-Date: Mon Sep 19 21:25:55 AEST 2016
-Built-JDK: 1.8.0_72
+Implementation-Version: 0.0.2
+Built-By: lukeh
+Built-Date: Thu Mar 08 16:35:27 AEST 2018
+Built-JDK: 9.0.1
 
